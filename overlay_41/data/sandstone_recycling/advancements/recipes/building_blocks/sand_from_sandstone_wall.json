@@ -1,35 +1,33 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_sandstone": {
+    "has_sandstone_wall": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:sandstone"
+            "items": "minecraft:sandstone_wall"
           }
         ]
       }
     },
 
-    "has_stairs_recipe": {
+    "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "sandstone_recycling:red_sandstone_blocks_from_stairs"
+        "recipe": "sandstone_recycling:sand_from_sandstone_wall"
       }
     }
   },
   "requirements": [
     [
-
-      "has_sandstone",
-      "has_stairs_recipe"
+      "has_sandstone_wall",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-
-      "sandstone_recycling:red_sandstone_blocks_from_stairs"
+      "sandstone_recycling:sand_from_sandstone_wall"
     ]
   }
 }

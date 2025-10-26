@@ -1,4 +1,7 @@
 # Sandstone Recycling
+
+_For Minecraft 1.20-1.20.6._
+
 Recycle sandstone items back into sand! 
 
 ### Recycles to sand or red sand

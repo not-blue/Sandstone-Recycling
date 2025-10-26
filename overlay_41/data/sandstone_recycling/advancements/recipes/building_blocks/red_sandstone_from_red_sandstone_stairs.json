@@ -11,22 +11,23 @@
         ]
       }
     },
+
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "sandstone_recycling:smooth_red_sandstone_stairs_from_smelting"
+        "recipe": "sandstone_recycling:red_sandstone_from_red_sandstone_stairs"
       }
     }
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_red_sandstone_stairs"
+      "has_red_sandstone_stairs",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "sandstone_recycling:smooth_red_sandstone_stairs_from_smelting"
+      "sandstone_recycling:red_sandstone_from_red_sandstone_stairs"
     ]
   }
 }

@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_smooth_sandstone": {
+    "has_red_sandstone_slab": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:smooth_red_sandstone"
+            "items": "minecraft:red_sandstone_slab"
           }
         ]
       }
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_smooth_sandstone"
+      "has_red_sandstone_slab"
     ]
   ],
   "rewards": {

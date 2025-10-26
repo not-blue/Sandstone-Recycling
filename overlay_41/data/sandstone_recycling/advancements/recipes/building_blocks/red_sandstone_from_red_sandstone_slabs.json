@@ -1,32 +1,33 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_red_sandstone_stairs": {
+    "has_red_sandstone_slab": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:red_sandstone_stairs"
+            "items": "minecraft:red_sandstone_slab"
           }
         ]
       }
     },
+
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "sandstone_recycling:smooth_red_sandstone_stairs_from_smelting"
+        "recipe": "sandstone_recycling:red_sandstone_from_red_sandstone_slabs"
       }
     }
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_red_sandstone_stairs"
+      "has_red_sandstone_slab",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "sandstone_recycling:smooth_red_sandstone_stairs_from_smelting"
+      "sandstone_recycling:red_sandstone_from_red_sandstone_slabs"
     ]
   }
 }
