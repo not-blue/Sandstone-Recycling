@@ -1,7 +1,7 @@
 # Sandstone Recycling
 Recycle sandstone items back into sand! 
 
-### Recycles to sand
+### Recycles to sand or red sand
 - Sandstone blocks, slabs, stairs, walls
 - Red sandstone blocks, slabs, stairs, walls
 - Cut sandstone blocks, slabs
@@ -9,11 +9,11 @@ Recycle sandstone items back into sand!
 - Chiseled sandstone blocks
 - Chiseled red sandstone blocks
 
-### Recycles to sandstone
-- Sandstone stairs
-- Red sandstone stairs
+### Recycles to sandstone or red sandstone
+- Sandstone and red sandstone stairs
+- Sandstone and red sandstone slabs slabs (place slabs next to each other in crafting grid)
 
-### Recycles to smooth sandstone
+### Recycles to smooth sandstone or red sandstone
 - Smooth sandstone slabs, stairs
 - Smooth red sandstone slabs, stairs
 
