@@ -1,22 +1,14 @@
 {
   "pack": {
-    "pack_format": 15,
+    "pack_format": 48,
     "supported_formats": {
-      "min_inclusive": 15,
+      "min_inclusive": 48,
       "max_inclusive": 81
     },
     "description": "Break sandstone blocks, walls, stairs and slabs back into sand"
   },
   "overlays": {
     "entries": [
-      {
-        "formats": 41,
-        "directory": "overlay_41"
-      },
-      {
-        "formats": 48,
-        "directory": "overlay_48"
-      },
       {
         "formats": {
           "min_inclusive": 57,
