@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_sandstone_stairs": {
+    "has_smooth_sandstone_stairs": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:sandstone_stairs"
+            "items": "minecraft:smooth_sandstone_stairs"
           }
         ]
       }
@@ -20,7 +20,7 @@
   },
   "requirements": [
     [
-      "has_sandstone_stairs",
+      "has_smooth_sandstone_stairs",
       "has_stairs_recipe"
     ]
   ],
