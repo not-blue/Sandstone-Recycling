@@ -7,12 +7,10 @@
     "  "
   ],
   "key": {
-    "x": {
-      "item": "minecraft:sandstone_slab"
-    }
+    "x": "minecraft:sandstone_slab"
   },
   "result": {
     "id": "minecraft:sandstone",
-    "count": 3
+    "count": 1
   }
 }

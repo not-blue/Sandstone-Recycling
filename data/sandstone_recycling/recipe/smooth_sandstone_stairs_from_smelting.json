@@ -1,9 +1,7 @@
 {
   "type": "minecraft:smelting",
   "category": "blocks",
-  "ingredient": {
-    "item": "minecraft:sandstone_stairs"
-  },
+  "ingredient": "minecraft:sandstone_stairs",
   "result": {
     "id": "minecraft:smooth_sandstone_stairs"
   },

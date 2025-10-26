@@ -3,9 +3,7 @@
   "category": "blocks",
   "group": "sand",
   "ingredients": [
-    {
-      "item": "minecraft:sandstone_wall"
-    }
+    "minecraft:sandstone_wall"
   ],
   "result": {
     "id": "minecraft:sand",

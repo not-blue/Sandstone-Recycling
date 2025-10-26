@@ -8,12 +8,8 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:sand"
-    },
-    "X": {
-      "item": "minecraft:red_dye"
-    }
+    "#": "minecraft:sand",
+    "X": "minecraft:red_dye"
   },
   "result": {
     "id": "minecraft:red_sand",
