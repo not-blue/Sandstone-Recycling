@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_red_sandstone_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:red_sandstone_slab"
+          }
+        ]
+      }
+    },
+
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "sandstone_recycling:red_sand_from_red_sandstone_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_red_sandstone_slab",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "sandstone_recycling:red_sand_from_red_sandstone_slab"
+    ]
+  }
+}

@@ -3,5 +3,14 @@
     "min_format": [88, 0],
     "max_format": [999, 0],
     "description": "Break sandstone blocks, walls, stairs and slabs back into sand"
-  }
+  },
+	"overlays": {
+		"entries": [
+			{
+				"min_format": [121, 0],
+				"max_format": [999, 0],
+				"directory": "overlay_121"
+				}
+		]
+	}
 }
