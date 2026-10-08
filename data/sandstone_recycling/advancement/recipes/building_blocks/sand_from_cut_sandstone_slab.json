@@ -14,7 +14,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipes": "sandstone_recycling:sandstone_from_cut_sandstone_slab"
+        "recipe": "sandstone_recycling:sand_from_cut_sandstone_slab"
       }
     }
   },
