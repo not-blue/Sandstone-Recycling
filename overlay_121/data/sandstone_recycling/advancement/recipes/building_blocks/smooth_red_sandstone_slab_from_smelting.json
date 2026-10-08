@@ -16,7 +16,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "sandstone_recycling:smooth_red_sandstone_slab_from_smelting"
+        "recipes": "sandstone_recycling:smooth_red_sandstone_slab_from_smelting"
       }
     }
   },

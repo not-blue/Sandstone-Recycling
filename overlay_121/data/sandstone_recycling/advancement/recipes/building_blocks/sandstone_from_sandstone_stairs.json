@@ -15,7 +15,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "sandstone_recycling:sandstone_from_sandstone_stairs"
+        "recipes": "sandstone_recycling:sandstone_from_sandstone_stairs"
       }
     }
   },
